@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#578c9c;
+    margin:0;
+    overflow:hidden;
+    font-family: 'JetBrains Mono', monospace;
+    font-size:18px;
+}
+header{
+    border-bottom: 3px solid black;
+}
+header h2{
+    text-align: center;
+    animation:backOutRight;
+    animation-duration: 10s;
+    font-size:1.5em;
+    letter-spacing: 3px;
+}
+.main-container{
+    display:flex;
+    flex-direction: row;
+    padding-top:10px;
+}
+.nav-recipes{
+    height: 400px;
+    margin-left:20px;
+    border:2px solid black;
+    background-color: rgb(131, 182, 197);
+}
+select , input{
+    border:2px solid black;
+    border-radius:10px;
+    width: 200px;
+    padding:8px 8px 8px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size:.9em;
+}
+label{
+    font-size:18px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    color:rgb(32, 47, 49);
+}
+
+button {
+    border:2px solid black;
+    border-radius: 15px;
+    cursor:pointer;
+    background-color: rgb(140, 168, 190);
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 10px 45px;
+    overflow: hidden;
+    margin: 10px 10px;
+    position: relative;
+    box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
+}
+button:hover{
+    background-color:rgb(5, 57, 87)
+}
+
+.recipes-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section {
+    margin: 5px;
+    width:250px;
+    height:250px;
+    border:2px solid black;
+    border-radius: 10px;
+    text-align:center;
+    letter-spacing: 1px;
+    line-height: 10px;
+    box-shadow: 0 20px 20px -10px black;
+    cursor:pointer;
+    background-color:rgb(167, 206, 218);
+}
+.recipes-container img{
+    width:100%;
+    height:80%;
+    border:2px solid black;
+    border-radius:8px;
+}
+.box:hover{
+    background-color: rgb(85, 134, 199);
+}

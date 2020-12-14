@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy&Tasty Recipes</title>
+    <link rel="stylesheet" type="text/css" href="resources/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h2>Easy and Tasty Recipes</h2>
+    </header>
+
+    <div class="main-container">
+
+        <div class="nav-recipes">
+        <div class="meal-recipes" id="meal-menu">
+            <label for="category">Choose a recipe:</label>
+            <select id="menu-recipes">
+                <option selected>--Choose all--</option>
+                <option value="meat">Meat</option>
+                <option value="poultry">Poultry</option>
+                <option value="seafood">Seafood</option>
+                <option value="side-dish">Side dishes</option>
+                </select>
+        </div>
+        <label for="searchTerm">Search term:</label>
+            <input type="text" id="searchTerm" placeholder="e.g. Chicken">
+        <div>
+        <button>Filter Results</button>
+        </div>
+    </div>
+
+    <main>
+        <div class="recipes-container"> 
+            <section class="beef">
+                <img src="resources/Mongolian-Beef-Recipe.jpg" alt="mongolian">
+                <h4>Mongolian Beef</h4>
+            </section>
+            <section class="beef">
+                <img src="resources/beef-stew.JPG" alt="beef-stew">
+                <h4>Beef stew</h4>
+            </section>
+            <section class="chicken">
+                <img src="resources/chicken.JPG">
+                <h4>Oven bake chicken</h4>
+            </section>
+            <section class="chicken">
+                <img src="resources/chicken-stew.JPG" alt="chicken-stew">
+                <h4>Chicken stew</h4>
+            </section>
+            <section class="fish">
+                <img src="resources/salmon.JPG">
+                <h4>Blackened salmon</h4>
+            </section>
+            <section class="shrimp">
+                <img src="resources/garlic-butter-shrimp.JPG" alt="shrimp">
+                <h4>Garlic butter shrimp</h4>
+            </section>
+            <section class="noodles">
+                <img src="resources/noodles.jpg">
+                <h4>Dan Dan noodles</h4>
+            </section>
+            <section class="pasta">
+                <img src="resources/creamy-pasta.JPG">
+                <h4>Creamy pasta</h4>
+            </section>
+            <section class="potatoes">
+                <img src="resources/potatoesJPG.JPG">
+                <h4>Parmesan potatoes</h4>
+            </section>
+            <section class="rice">
+                <img src="resources/rice.jpg">
+                <h4> Easy fried rice</h4>
+            </section>
+    </div>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
