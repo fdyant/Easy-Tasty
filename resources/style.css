@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#578c9c;
+    background-color:#376370;
     margin:0;
-    overflow:hidden;
     font-family: 'JetBrains Mono', monospace;
     font-size:18px;
+    overflow:hidden;
 }
+
 header{
     border-bottom: 3px solid black;
 }
@@ -18,16 +19,20 @@ header h2{
     font-size:1.5em;
     letter-spacing: 3px;
 }
+
 .main-container{
     display:flex;
     flex-direction: row;
     padding-top:10px;
 }
 .nav-recipes{
-    height: 400px;
-    margin-left:20px;
-    border:2px solid black;
-    background-color: rgb(131, 182, 197);
+    position: relative;
+    width:250px;
+}
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 select , input{
     border:2px solid black;
@@ -42,21 +47,21 @@ label{
     font-size:18px;
     padding-left: 15px;
     letter-spacing: 1px;
-    color:rgb(32, 47, 49);
+    color:rgb(152, 225, 236);
 }
 
 button {
     border:2px solid black;
     border-radius: 15px;
     cursor:pointer;
-    background-color: rgb(140, 168, 190);
-    color: #fff;
+    background-color: rgb(59, 97, 126);
+    color: rgb(185, 219, 250);
     letter-spacing: 2px;
     padding: 10px 45px;
     overflow: hidden;
     margin: 10px 10px;
     position: relative;
-    box-shadow: inset 1px 1px 2px white, inset -1px -1px 2px #ccc;
+    box-shadow: inset 1px 1px 2px rgb(2, 127, 136), inset -1px -1px 2px #ccc;
 }
 button:hover{
     background-color:rgb(5, 57, 87)
@@ -71,9 +76,10 @@ button:hover{
 section {
     margin: 5px;
     width:250px;
-    height:250px;
+    height:250px; 
+    position: relative;
     border:2px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
     text-align:center;
     letter-spacing: 1px;
     line-height: 10px;
@@ -81,12 +87,16 @@ section {
     cursor:pointer;
     background-color:rgb(167, 206, 218);
 }
-.recipes-container img{
-    width:100%;
+
+section img {
+    width: 100%;
     height:80%;
+    display: block;
+    position: absolute;
+    bottom: 0px;
     border:2px solid black;
-    border-radius:8px;
+    border-radius:5px;
 }
-.box:hover{
-    background-color: rgb(85, 134, 199);
+section:hover{
+    background-color: rgb(57, 106, 197);
 }

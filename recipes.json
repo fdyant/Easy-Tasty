@@ -1,0 +1,56 @@
+[
+    {
+        "name" : "mongolian beef",
+        "image": "mongolian-Beef-Recipe.jpg",
+        "type" : "meat"
+
+    },
+    {
+        "name": "beef stew",
+        "image": "beef-stew.jpg",
+        "type":"meat"
+    },
+    {
+        "name" :"oven bake chicken",
+        "image":"chicken.jpg",
+        "type": "poultry"
+    },
+    {
+        "name": "chicken stew",
+        "image": "chicken-stew.jpg",
+        "type": "poultry"
+    },
+    {
+        "name":"blackened salmon",
+        "image":"salmon.jpg",
+        "type":"seafood"
+    },
+    {
+        "name": "garlic butter shrimp",
+        "image": "garlic-butter-shrimp.jpg",
+        "type": "seafood"
+    },
+    {
+        "name": "dandan noodle",
+        "image": "noodles.jpg",
+        "type": "side-dish"
+    },
+    {
+        "name" : "creamy pasta",
+        "image":"creamy-pasta.jpg",
+        "type":"side-dish"
+    },
+    {
+        "name": "parmesan potatoes",
+        "image":"potatoesJPG.jpg",
+        "type":"side-dish"
+    },
+    {
+        "name":"easy fried rice",
+        "image": "rice.jpg",
+        "type":"side-dish"
+    }
+
+
+
+]

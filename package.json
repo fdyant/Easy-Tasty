@@ -1,0 +1,22 @@
+{
+  "name": "easyandtasty",
+  "version": "1.0.0",
+  "description": "recipes",
+  "main": "recipes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdyant/EasyAndTasty.git"
+  },
+  "author": "fenny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdyant/Easy-Tasty/issues"
+  },
+  "homepage": "https://github.com/fdyant/Easy-Tasty#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

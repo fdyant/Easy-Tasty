@@ -6,7 +6,7 @@
     <title>Easy&Tasty Recipes</title>
     <link rel="stylesheet" type="text/css" href="resources/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+    <link rel="json" href="recipes.json">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <div class="meal-recipes" id="meal-menu">
             <label for="category">Choose a recipe:</label>
             <select id="menu-recipes">
-                <option selected>--Choose all--</option>
+                <option selected>Choose all</option>
                 <option value="meat">Meat</option>
                 <option value="poultry">Poultry</option>
                 <option value="seafood">Seafood</option>
@@ -37,50 +37,51 @@
         </div>
     </div>
 
-    <main>
+    <main id="recipes">
         <div class="recipes-container"> 
-            <section class="beef">
+            <section class="meat">
                 <img src="resources/Mongolian-Beef-Recipe.jpg" alt="mongolian">
                 <h4>Mongolian Beef</h4>
             </section>
-            <section class="beef">
+            <section class="meat">
                 <img src="resources/beef-stew.JPG" alt="beef-stew">
                 <h4>Beef stew</h4>
             </section>
-            <section class="chicken">
+            <section class="poultry">
                 <img src="resources/chicken.JPG">
                 <h4>Oven bake chicken</h4>
             </section>
-            <section class="chicken">
+            <section class="poultry">
                 <img src="resources/chicken-stew.JPG" alt="chicken-stew">
                 <h4>Chicken stew</h4>
             </section>
-            <section class="fish">
-                <img src="resources/salmon.JPG">
+            <section class="seafood">
+                <img src="resources/salmon.JPG" alt="salmon">
                 <h4>Blackened salmon</h4>
             </section>
-            <section class="shrimp">
+            <section class="seafood">
                 <img src="resources/garlic-butter-shrimp.JPG" alt="shrimp">
                 <h4>Garlic butter shrimp</h4>
             </section>
-            <section class="noodles">
-                <img src="resources/noodles.jpg">
+            <section class="side-dish">
+                <img src="resources/noodles.jpg" alt="dandan noodles">
                 <h4>Dan Dan noodles</h4>
             </section>
-            <section class="pasta">
-                <img src="resources/creamy-pasta.JPG">
+            <section class="side-dish">
+                <img src="resources/creamy-pasta.JPG" alt="creamy-pasta">
                 <h4>Creamy pasta</h4>
             </section>
-            <section class="potatoes">
-                <img src="resources/potatoesJPG.JPG">
+            <section class="side-dish">
+                <img src="resources/potatoesJPG.JPG" alt="bake-potatoes">
                 <h4>Parmesan potatoes</h4>
             </section>
-            <section class="rice">
-                <img src="resources/rice.jpg">
+            <section class="side-dish">
+                <img src="resources/rice.jpg" alt="fried-rice">
                 <h4> Easy fried rice</h4>
             </section>
     </div>
 </main>
-    <script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
