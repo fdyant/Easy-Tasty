@@ -12,7 +12,7 @@
     },
     {
         "name" :"oven bake chicken",
-        "image":"chicken.jpg",
+        "image":"chickenBake.jpg",
         "type": "poultry"
     },
     {
@@ -22,7 +22,7 @@
     },
     {
         "name":"blackened salmon",
-        "image":"salmon.jpg",
+        "image":"salmonBlackened.jpg",
         "type":"seafood"
     },
     {
