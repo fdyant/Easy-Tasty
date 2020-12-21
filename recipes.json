@@ -11,7 +11,7 @@
         "type":"meat"
     },
     {
-        "name" :"oven bake chicken",
+        "name" :"Oven bake chicken",
         "image":"chickenBake.jpg",
         "type": "poultry"
     },
@@ -21,7 +21,7 @@
         "type": "poultry"
     },
     {
-        "name":"blackened salmon",
+        "name":"Blackened salmon",
         "image":"salmonBlackened.jpg",
         "type":"seafood"
     },
