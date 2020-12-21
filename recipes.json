@@ -1,13 +1,13 @@
 [
     {
         "name" : "mongolian beef",
-        "image": "mongolian-Beef-Recipe.jpg",
+        "image": "mongolianBeef.jpg",
         "type" : "meat"
 
     },
     {
         "name": "beef stew",
-        "image": "beef-stew.jpg",
+        "image": "beefStew.jpg",
         "type":"meat"
     },
     {
@@ -17,7 +17,7 @@
     },
     {
         "name": "chicken stew",
-        "image": "chicken-stew.jpg",
+        "image": "chickenStew.jpg",
         "type": "poultry"
     },
     {
@@ -27,7 +27,7 @@
     },
     {
         "name": "garlic butter shrimp",
-        "image": "garlic-butter-shrimp.jpg",
+        "image": "garlicbutterShrimp.jpg",
         "type": "seafood"
     },
     {
@@ -37,12 +37,12 @@
     },
     {
         "name" : "creamy pasta",
-        "image":"creamy-pasta.jpg",
+        "image":"creamyPasta.jpg",
         "type":"side-dish"
     },
     {
         "name": "parmesan potatoes",
-        "image":"potatoesJPG.jpg",
+        "image":"potatoes.jpg",
         "type":"side-dish"
     },
     {

@@ -13,9 +13,9 @@
   "author": "fenny",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fdyant/Easy-Tasty/issues"
+    "url": "https://github.com/fdyant/EasyAndTasty/issues"
   },
-  "homepage": "https://github.com/fdyant/Easy-Tasty#readme",
+  "homepage": "https://github.com/fdyant/EasyAndTasty#readme",
   "devDependencies": {
     "nodemon": "^2.0.6"
   }
