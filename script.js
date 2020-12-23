@@ -150,5 +150,7 @@ function initialize(recipes) {
       section.appendChild(heading);
     }
   }
-  
-  
+
+// view recipe on click
+let buttonView = document.querySelector('a');
+function buttonView = onclick;

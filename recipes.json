@@ -3,7 +3,6 @@
         "name" : "mongolian beef",
         "image": "mongolianBeef.jpg",
         "type" : "meat"
-
     },
     {
         "name": "beef stew",
@@ -31,7 +30,7 @@
         "type": "seafood"
     },
     {
-        "name": "dandan noodle",
+        "name": "lo mein noodles",
         "image": "noodles.jpg",
         "type": "side-dish"
     },

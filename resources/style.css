@@ -4,20 +4,20 @@
     padding:0px;
 }
 body{
-    background-color:#376370;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
     font-family: 'JetBrains Mono', monospace;
     font-size:18px;
 }
 
 header{
     border-bottom: 3px solid black;
-    height: 75px;
+    height: 100px;
 }
-header h2{
+header h2, h3{
     text-align: center;
-    font-size:1.5em;
+    padding:5px;
+    color:#a1ddf0;
     letter-spacing: 3px;
-    line-height: 75px;
 }
 .main-container{
     display:flex;
@@ -31,7 +31,7 @@ header h2{
 .cooking-quote{
     padding-left:15px;
     font-size: 16px;
-    color:#c0e9f5
+    color:#a1ddf0
 }
 .cooking-quote img{
     width:200px;
@@ -72,7 +72,7 @@ button {
     box-shadow: inset 1px 1px 2px rgb(2, 127, 136), inset -1px -1px 2px #ccc;
 }
 button:hover{
-    background-color:rgb(5, 57, 87)
+    background-color:rgb(13, 62, 102)
 }
 
 .recipes-container {
@@ -85,32 +85,83 @@ section {
     margin: 5px;
     width:250px;
     height:250px; 
-    position: relative;
+    position: relative; 
     border:2px solid black;
     border-radius: 8px;
     text-align:center;
     letter-spacing: 1px;
     box-shadow: 0 20px 20px -10px rgb(167, 206, 218);
     cursor:pointer;
-    background-color:rgb(167, 206, 218);
+    background-color:rgb(167, 206, 218); 
 }
 section img {
     width: 100%;
-    height:85%;
+    height:75%;
     display: block;
-    position: absolute;
-    bottom: 0px;
     border:2px solid black;
     border-radius:5px;
 }
-section:hover{
-    background-color: rgb(57, 106, 197);
+a:hover{
+    background-color: rgb(51, 142, 202);
+    border: 2px black solid;
+    border-radius: 10px;
+    color:rgb(214, 230, 238);
+} 
+
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: #e3e8ec;
+    padding:3px 15px;
+    background-color: #243949;
+    border-radius: 10px;
+    line-height: normal;
+    transition: opacity 0.5s ease;
+}
+/*recipes.html*/
+
+.recipe-collections{
+    display: flex;
+}
+.recipe-index{
+    font-size: 14px;
+}
+.recipe-info{
+    display: flex;
+    flex-direction: column;
+}
+.recipe-info h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+ul{
+    padding:15px 15px;
+    list-style: disc ;
+    margin:auto;
+    line-height: 23px;
+}
+ol{
+    padding:20px; 
+    margin:10px;
+    line-height: 23px;
+}
+ol li{
+    padding:5px;
+}
+.recipe-info img{
+    width:200px;
+    border: 2px solid black;
+    margin:auto;
+}
+.recipe-info{
+    background-color: #f1f5f8;
+    border:#243949 2px solid;
 }
 
 
 footer h6{
-    color: rgb(40, 58, 97);
+    color: #a1ddf0;
     text-align: center;
-    font-size: 12px;
-    margin-top:30px;
+    font-size: 14px;
 }
