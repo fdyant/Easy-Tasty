@@ -2,54 +2,69 @@
     {
         "name" : "mongolian beef",
         "image": "mongolianBeef.jpg",
-        "type" : "meat"
+        "type" : "meat",
+        "button": "View recipe"
     },
     {
         "name": "beef stew",
         "image": "beefStew.jpg",
-        "type":"meat"
+        "type":"meat",
+        "button": "View recipe"
+        
     },
     {
         "name" :"Oven bake chicken",
         "image":"chickenBake.jpg",
-        "type": "poultry"
+        "type": "poultry",
+        "button": "View recipe"
     },
     {
         "name": "chicken stew",
         "image": "chickenStew.jpg",
-        "type": "poultry"
+        "type": "poultry",
+        "button": "View recipe"
+    
     },
     {
         "name":"Blackened salmon",
         "image":"salmonBlackened.jpg",
-        "type":"seafood"
+        "type":"seafood",
+        "button": "View recipe"
+    
     },
     {
         "name": "garlic butter shrimp",
         "image": "garlicbutterShrimp.jpg",
-        "type": "seafood"
+        "type": "seafood",
+        "button": "View recipe"
+    
     },
     {
         "name": "lo mein noodles",
         "image": "noodles.jpg",
-        "type": "side-dish"
+        "type": "side-dish",
+        "button": "View recipe"
+    
     },
     {
         "name" : "creamy pasta",
         "image":"creamyPasta.jpg",
-        "type":"side-dish"
+        "type":"side-dish",
+        "button": "View recipe"
+    
     },
     {
         "name": "parmesan potatoes",
         "image":"potatoes.jpg",
-        "type":"side-dish"
+        "type":"side-dish",
+        "button": "View recipe"
+        
     },
     {
         "name":"easy fried rice",
         "image": "rice.jpg",
-        "type":"side-dish"
+        "type":"side-dish",
+        "button": "View recipe"
     }
-
-
 
 ]
